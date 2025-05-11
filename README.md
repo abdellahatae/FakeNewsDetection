@@ -20,7 +20,8 @@ Avantages :
 
 -Directement utilisable pour classification binaire
 
-# Pipeline recommandé : le dataset Kaggle "Fake and Real News" contient deux fichiers CSV séparés : Fake.csv et True.csv.
+# Pipeline recommandé : 
+## le dataset Kaggle "Fake and Real News" contient deux fichiers CSV séparés : Fake.csv et True.csv.
 
  -Charge les deux fichiers CSV
  
