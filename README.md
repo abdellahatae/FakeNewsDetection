@@ -6,35 +6,35 @@ Taille : ~40 000 articles
 
 Colonnes :
 
-title (titre de l’article)
+-title (titre de l’article)
 
-text (corps complet)
+-text (corps complet)
 
-label (FAKE ou REAL)
+-label (FAKE ou REAL)
 
 Avantages :
 
-Bien structuré
+-Bien structuré
 
-Données réelles
+-Données réelles
 
-Directement utilisable pour classification binaire
+-Directement utilisable pour classification binaire
 
 # Pipeline recommandé : le dataset Kaggle "Fake and Real News" contient deux fichiers CSV séparés : Fake.csv et True.csv.
 
- Charge les deux fichiers CSV
+ -Charge les deux fichiers CSV
  
- Fusionne les deux datasets en un seul
+ -Fusionne les deux datasets en un seul
  
- Nettoie les textes (title + text)
+ -Nettoie les textes (title + text)
  
- Vectorise avec TF-IDF
+ -Vectorise avec TF-IDF
  
- Entraîne un modèle SVM
+ -Entraîne un modèle SVM
  
- Évalue le modèle
+ -Évalue le modèle
  
- Exporte le modèle en .pkl prêt à être intégré
+ -Exporte le modèle en .pkl prêt à être intégré
 
 # Bonus : que faire ensuite ?
 Le fichier fake_news_model.pkl peut ensuite être utilisé dans un microservice Python avec Flask ou FastAPI pour l’intégrer dans ton projet Spring/Angular.
