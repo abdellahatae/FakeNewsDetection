@@ -23,11 +23,17 @@ Directement utilisable pour classification binaire
 # Pipeline recommandé : le dataset Kaggle "Fake and Real News" contient deux fichiers CSV séparés : Fake.csv et True.csv.
 
  Charge les deux fichiers CSV
+ 
  Fusionne les deux datasets en un seul
+ 
  Nettoie les textes (title + text)
+ 
  Vectorise avec TF-IDF
+ 
  Entraîne un modèle SVM
+ 
  Évalue le modèle
+ 
  Exporte le modèle en .pkl prêt à être intégré
 
 # Bonus : que faire ensuite ?
