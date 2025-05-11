@@ -1,5 +1,5 @@
 # FakeNewsDetection
-# Kaggle Fake News Dataset (Kaggle – "Fake and real news dataset")
+## Kaggle Fake News Dataset (Kaggle – "Fake and real news dataset")
 Lien : https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
 
 Taille : ~40 000 articles
@@ -20,8 +20,8 @@ Avantages :
 
 -Directement utilisable pour classification binaire
 
-# Pipeline recommandé : 
-## le dataset Kaggle "Fake and Real News" contient deux fichiers CSV séparés : Fake.csv et True.csv.
+## Pipeline recommandé : 
+### le dataset Kaggle "Fake and Real News" contient deux fichiers CSV séparés : Fake.csv et True.csv.
 
  -Charge les deux fichiers CSV
  
@@ -37,5 +37,5 @@ Avantages :
  
  -Exporte le modèle en .pkl prêt à être intégré
 
-# Bonus : que faire ensuite ?
+## Bonus : que faire ensuite ?
 Le fichier fake_news_model.pkl peut ensuite être utilisé dans un microservice Python avec Flask ou FastAPI pour l’intégrer dans ton projet Spring/Angular.
